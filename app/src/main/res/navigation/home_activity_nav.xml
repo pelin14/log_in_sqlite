@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home_activity_nav"
+    app:startDestination="@id/anaSayfaFragment">
+
+    <fragment
+        android:id="@+id/anaSayfaFragment"
+        android:name="com.example.loginsqlite.AnaSayfaFragment"
+        android:label="fragment_ana_sayfa"
+        tools:layout="@layout/fragment_ana_sayfa" />
+    <fragment
+        android:id="@+id/profilFragment"
+        android:name="com.example.loginsqlite.ProfilFragment"
+        android:label="fragment_profil"
+        tools:layout="@layout/fragment_profil" />
+    <fragment
+        android:id="@+id/aramaSayfasiFragment"
+        android:name="com.example.loginsqlite.AramaSayfasiFragment"
+        android:label="fragment_arama_sayfasi"
+        tools:layout="@layout/fragment_arama_sayfasi" />
+</navigation>

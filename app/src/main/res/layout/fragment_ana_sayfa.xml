@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AnaSayfaFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/mavi">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="KİTAPLAR VE KONULARI"
+                android:textColor="@color/design_default_color_error"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/sucvecezaimageview"
+                android:layout_width="211dp"
+                android:layout_height="252dp"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"
+                android:src="@drawable/sucveceza" />
+
+            <TextView
+                android:id="@+id/sucvecezabilgi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nSUÇ VE CEZA - DOSTOYEVSKİ\n\nRomanın baş kahramanı Raskolnikov un kendi içinde yaşadığı iç sıkıntıları ve yaşam mücadelesini anlatan kitapta kahramanın yaşadığı olaylar karşısında verdiği aldığı karaları anlatıyor Raskolnikov  kendi vicdanı ve iç dünyası ile hesaplaşması konu alan kitap gayet akıcı ve sürükleyici bir şekilde okuyucusu hiç sıkmıyor.\n"
+                android:textColor="@color/black" />
+
+            <ImageView
+                android:id="@+id/kucukprensimageview"
+                android:layout_width="211dp"
+                android:layout_height="280dp"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"
+                android:src="@drawable/kucukprens" />
+
+            <TextView
+                android:id="@+id/kucukprensbilgi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nKÜÇÜK PRENS - ANTOİNE DE SAİNT-EXUPERY\n\nKüçük Prens, kendi galaksisinde, kendi dünyasında tek bir gül ile yaşayan bir Küçük Prens'in başka galaksileri gezmek için tek gülünü tek başına bırakıp yolculuk yapmasını anlatır. Ancak bu yolculuk esnasında vurgulamak istediği şey 'büyümek'tir. İnsanların yaş aldıkça, büyüdükçe insani ve temel değerlerden uzaklaşmalarını, hatta yozlaşmalarını masum Küçük Prens'in gözlerinden bize aktarır.\n"
+                android:textColor="@color/black" />
+
+            <ImageView
+                android:id="@+id/ejderhadovmelikizimage"
+                android:layout_width="211dp"
+                android:layout_height="280dp"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ejderhadovmelikiz" />
+
+            <TextView
+                android:id="@+id/ejderhadovmelikızbilgi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nEJDERHA DÖVMELİ KIZ - STİEG LARSSON\n\nEjderha Dövmeli Kız, yer yer ayrıntılara fazla yer verilmiş olmasına rağmen okuyucuyu sürükleyen bir anlatım ve konuya sahip. Zekice kurgulanmış olay örgüsünde adeta kayboluyorsunuz. Kitaptaki en önemli vurgu, kadın. Kadınlara yapılan cinsel istismar, toplumda ve iş hayatında aşağı görme gibi problemler istatistiksel olarak yer verilmiş. Kitabın ana karakteri olan Lisbeth Salander, aslında bu problemlere göğüs geriyor ve sebep olan kişilerle mücadele ediyor.\n"
+                android:textColor="@color/black" />
+
+            <ImageView
+                android:id="@+id/davincisifresiimage"
+                android:layout_width="211dp"
+                android:layout_height="280dp"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"
+                android:src="@drawable/davincisifresi" />
+
+            <TextView
+                android:id="@+id/davincisifresibilgi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nDA VİNCİ ŞİFRESİ - DAN BROWN\n\nParis’teki Louvre Müzesi’nin müdürü ardında gizemli ipuçları, kodlar, ve şifreleri bırakarak öldürülür. Bunun üzerine Harvard’lı bilim adamı Profesör Robert Lang gizemli cinayete yardım edecek. Bu cinayetteki soruşturma, Fransız kriptoloji servisi Sophie Neveu ile başlıyor. Ancak cinayetin sırlarını ortaya çıkarmaya başladığında hızlı ve tehlikeli bir macera beklemeye başlar.\n"
+                android:textColor="@color/black" />
+
+            <ImageView
+                android:id="@+id/sefillerimage"
+                android:layout_width="211dp"
+                android:layout_height="280dp"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"
+                android:src="@drawable/sefillerr" />
+
+            <TextView
+                android:id="@+id/sefillerbilgi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nSEFİLLER - VİCTOR HUGO\n\nSefiller kitabının konusunda Jean Valjean isimli şahsın konusu işleniyor. Jean Valjean ilk başlarda kötü bir karakter olarak karşımıza çıkıyor. Daha sonrasında ise bu karakterin iyi bir insana dönüşmesi anlatılıyor. Jean Valjean'ın hapise girmesi toplumun ona karşı olan bakışını olumsuz yönde etkiler. Çünkü toplum onu dışlayarak aralarında istemez. Sefiller kitabı Fransa'nın eksi yapısını gözler önüne seriyor. Özellikle eski dönemlerde Fransa'nın toplumu ve yaşayış biçimi kitapta gerçekçi detaylar ile okuyucuya aktarılıyor.\n"
+                android:textColor="@color/black" />
+
+            <ImageView
+                android:id="@+id/yuzuklerınefendisiimage"
+                android:layout_width="211dp"
+                android:layout_height="280dp"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"
+                android:src="@drawable/yuzuklerinefendisi" />
+
+            <TextView
+                android:id="@+id/yuzuklerınefendisibilgi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nYÜZÜKLERİN EFENDİSİ - JOHN RONALD REUEL TOLKİEN\n\nYüzüklerin Efendisinin illk kısmı Yüzük Kardeşliğini 97 Sonbaharında sunmuştu. 1998 de yayımladığımız İki Kule ve Kralin Dönüşü ile yapıt tamamlandı. Yüzüklerin Efendisini yayımlamaya başladığımızda son yüzyılın en çok okunan yüz kitabı arasında en başta geldiğni belirtmiştik. Türkçe basımı da bu ilginin evrenselliğini kanıtladı. Polisiye ya da bilimkurgu meraklıları, şiir roman ve öykü okurları, hep birlikte Frodo, Sam, Merry, Pippin, Aragorn ve Gandalf'ın maceralarını okumaya, Orta Dünya'da yaşamaya başladılar.\n"
+                android:textColor="@color/black" />
+
+            <ImageView
+                android:id="@+id/hobbitimage"
+                android:layout_width="211dp"
+                android:layout_height="280dp"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"
+                android:src="@drawable/hobbit" />
+
+            <TextView
+                android:id="@+id/hobbitbilgi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nHOBBIT - JOHN RONALD REUEL TOLKİEN\n\nRoman, Tolkien'ın âdeta bir külliyat oluşturduğu Orta Dünya evreninde, evcimen bir hobbit olan Bilbo Baggins'in Smaug adındaki ejderhanın Erebor'da sahiplendiği hazineden bir pay alma çabasıyla çıktığı yolculuğa ve sonrasında gelişen olaylara odaklanır. Gandalf ve on üç cücenin beklenmedik ziyareti sonrasında başlayan Bilbo'nun yolculuğu onu tasasız yaşadığı kırsaldan çıkararak, uğursuz denebilecek bölgelere götürür. Olay örgüsü bölümler halinde anlatılır ve çoğu bölüm Tolkien'in coğrafyasındaki yaratıkları tanımlama çabasıyla ilerler.\n"
+                android:textColor="@color/black" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

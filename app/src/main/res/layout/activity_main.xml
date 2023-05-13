@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/kullaniciadi"
+        android:layout_width="250dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="10dp"
+        android:hint="Kullanıcı Adı"
+        app:layout_constraintBottom_toTopOf="@+id/parola"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/parola"
+        android:layout_width="250dp"
+        android:layout_height="55dp"
+        android:layout_below="@+id/kullaniciadi"
+        android:layout_marginBottom="10dp"
+        android:hint="Parola"
+        app:layout_constraintBottom_toTopOf="@+id/parola2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/parola2"
+        android:layout_width="250dp"
+        android:layout_height="55dp"
+        android:layout_below="@+id/parola"
+        android:layout_marginBottom="17dp"
+        android:hint="Parolayı Doğrula"
+        app:layout_constraintBottom_toTopOf="@+id/btnkayit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnkayit"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/parola2"
+        android:layout_marginTop="17dp"
+        android:backgroundTint="@color/siyah"
+        android:text="Kayıt Ol"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/parola2" />
+
+    <Button
+        android:id="@+id/btngiris"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/btnkayit"
+        android:layout_marginTop="11dp"
+        android:backgroundTint="@color/siyah"
+        android:text="ZATEN HESABIM VAR"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnkayit" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="266dp"
+        android:layout_height="75dp"
+        android:layout_marginBottom="21dp"
+        android:text="KAYIT OL"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toTopOf="@+id/kullaniciadi"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="141dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="23dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/baseline_person_add_24" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
